@@ -9,9 +9,6 @@ const boardSchema = new mongoose.Schema({
   rank: {
     type: Number,
     required: true,
-    index: true,
-    unique: true,
-    dropDups: true,
   },
   name: {
     type: String,
